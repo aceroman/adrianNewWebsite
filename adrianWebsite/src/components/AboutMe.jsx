@@ -10,8 +10,8 @@ function AboutMe() {
             speed={50} repeat={Infinity}/>
             <div className='flex flex-col md:flex-row justify-center items-center gap-[450px] pt-10'>
                 <img className='w-full md:w-[300px] h-auto rounded-md' src={Adrian}/>
-                <p className='text-lg md:text-2xl font-semibold text-center max-w-full md:max-w-[600px]'>My name is Adrian Menacho, 
-                    I am a senior majoring in Computational Modeling and Data Analytics. I am very interested in Data Analysis and web development technologies.. </p>
+                <p className='text-lg md:text-2xl font-semibold text-center max-w-full md:max-w-[600px]'>Hi! My name is Adrian Menacho, 
+                    I am very interested in Data Analysis and web development technologies.. </p>
             </div>
             
         </div>

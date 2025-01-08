@@ -13,13 +13,13 @@ import Waller from '../assets/adrianWaller1.jpeg';
 function Projects() {
 
     return (
-        <div className='bg-[#A0A09B]'>
+        <div className='bg-[#A0A09B] px-4 lg:px-16 xl:px-24'>
 
             <div className='flex justify-center'>
                 <h1 className='text-5xl font-semibold text-center border-b-4 border-white p-4'>Experience</h1>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[150px] pt-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[150px] md:gap-12 xl:gap-28 pt-10'>
                 <ProjectCard title='SHPE Cybersecurity Challenge' image={CyberPic} description='Particpated in 2024 SHPE Cybersecurity Challenge!' />
                 <ProjectCard title="2024 SHPE National Convention" image={SHPEConvention} description='Attended the 2024 SHPE National Conference to connect with others'/>
                 <ProjectCard title='AWS Summit Conference' image={test1} description='Attended the AWS Summit Conference to learn more about startups!'/>
@@ -28,12 +28,12 @@ function Projects() {
             </div>
 
 
-            <div className='flex justify-center'>
+            <div className='flex justify-center mt-12'>
                 <h1 className='text-5xl font-semibold text-center border-b-4 border-white p-4'>Projects</h1>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[150px] pt-10'>
-                <ProjectCard title='CMDA Capstone Project' image={CMDAPic} description='The Three Ticketeers tacking Capstone together!'/>
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[150px] md:gap-12 xl:gap-28 pt-10'>
+                <ProjectCard title='CMDA Capstone Project' image={CMDAPic} description='The Three Ticketeers tacking Capstone together with VA811!'/>
                 <ProjectCard title='RC4 MAGMA Implementation' image={RC4Pic} description='Researched and developed RC4 Cryptosystem using MAGMA'/>
                 <ProjectCard title='Health Care Partial Least Squares' image={cmda4654Pic} description='Developed in-depth understanding of PLS using health care data'/>
              </div>
