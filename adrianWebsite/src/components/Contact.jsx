@@ -67,6 +67,7 @@ const Contact = () => {
         <div className='container mx-auto px-4 sm:px-8 lg:px-16 py-8 relative'>
 
             {/*The key part of the contact page! */}
+            <h1 className='font-semibold text-black sm:text-4xl md:text-3xl xl:text-3xl text-center'>Feel free to reach out!</h1>
             <form ref={form} onSubmit={sendEmail} className='flex flex-col bg-[#A0A09B] mx-auto max-w-5xl sm:w-3/4 md:w-3/5 lg:w-1/2 w-full rounded-md p-4 sm:p-6 lg:p-8 mt-8' >
                 {notification && <p className='text-center text-red-700 text-sm sm:text-base'>{notification}</p>}
                 <label className='font-bold text-sm sm:text-base lg:text-lg mt-4'>Name:</label>
@@ -81,7 +82,7 @@ const Contact = () => {
             </form>
 
             {/*Button to my links */}
-            <div className='flex justify-center gap-6 mt-8'>
+            <div className='flex justify-center gap-20 mt-8'>
                 <button type="button" className='p-2 bg-transparent hover:opacity-80' onclick={() => window.open('https://github.com/aceroman', '_blank')}>
                     <img src={GithubIcon} alt='My github link' className='w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20'/>
                 </button>

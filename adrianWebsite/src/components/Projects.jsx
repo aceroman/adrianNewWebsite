@@ -8,6 +8,7 @@ import RC4Pic from '../assets/RC4Picture.png';
 import Synergy from '../assets/SynergyGSPPicture.jpg';
 import cmda4654Pic from '../assets/4654Picture.png';
 import Waller from '../assets/adrianWaller1.jpeg';
+import BookdUp from '../assets/blueLogo.jpeg';
 
 
 function Projects() {
@@ -20,6 +21,7 @@ function Projects() {
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[150px] md:gap-12 xl:gap-28 pt-10'>
+                <ProjectCard title='Front End Developer' image={BookdUp} description='I am resposible for the UI of BookdUp under Gatora LLC' websiteLink='https://bookdup.co/'/>
                 <ProjectCard title='SHPE Cybersecurity Challenge' image={CyberPic} description='Particpated in 2024 SHPE Cybersecurity Challenge!' />
                 <ProjectCard title="2024 SHPE National Convention" image={SHPEConvention} description='Attended the 2024 SHPE National Conference to connect with others'/>
                 <ProjectCard title='AWS Summit Conference' image={test1} description='Attended the AWS Summit Conference to learn more about startups!'/>
@@ -33,7 +35,7 @@ function Projects() {
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[150px] md:gap-12 xl:gap-28 pt-10'>
-                <ProjectCard title='CMDA Capstone Project' image={CMDAPic} description='The Three Ticketeers tacking Capstone together with VA811!'/>
+                <ProjectCard title='CMDA Capstone Project' image={CMDAPic} description='The Three Ticketeers tackling Capstone together with VA811!'/>
                 <ProjectCard title='RC4 MAGMA Implementation' image={RC4Pic} description='Researched and developed RC4 Cryptosystem using MAGMA'/>
                 <ProjectCard title='Health Care Partial Least Squares' image={cmda4654Pic} description='Developed in-depth understanding of PLS using health care data'/>
              </div>
