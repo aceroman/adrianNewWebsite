@@ -9,9 +9,9 @@ import Home from './components/Home.jsx';
 
 function App() {
   return (
-  <div className='bg-[#f4f4f2]'> {/*#DBD5B5 */}
+  <div className='bg-[#3B4141]'> {/*#DBD5B5 */}
     <Navbar/>
-    <div className='bg-[#f4f4f2] flex justify-center items-center'>
+    <div className='bg-[#3B4141] flex justify-center items-center'>
       <h1 className='text-5xl font-semibold pt-16 pb-10 text-[#911825]'>Adrian Menacho</h1>
     </div>
 

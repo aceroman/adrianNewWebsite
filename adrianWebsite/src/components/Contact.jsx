@@ -1,4 +1,4 @@
-import React, {useState, useRef} from 'react';
+import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import GithubIcon from '../assets/GithubIcon.png';
 import LinkedInIcon from '../assets/LinkedInIcon.png';
@@ -16,11 +16,11 @@ const Contact = () => {
         e.preventDefault();
 
         if (!name || !email || !message) {
-            setNotification("Fill out all the information");
+            setNotification("Please fill out all the information");
             return;
         }
 
-        if(!verifyEmail(email)) {
+        if (!verifyEmail(email)) {
             setNotification("Please enter a valid email");
             return;
         }
@@ -64,17 +64,29 @@ const Contact = () => {
 
 
     return (
-        <div className='container mx-auto px-4 sm:px-8 lg:px-16 py-8 relative'>
+        <div className='mx-auto px-4 sm:px-8 lg:px-16 py-8 relative bg-[#3B4141]'>
 
             {/*The key part of the contact page! */}
-            <h1 className='font-semibold text-black sm:text-4xl md:text-3xl xl:text-3xl text-center'>Feel free to reach out!</h1>
+            <div className="flex space-x-4 justify-center font-semibold text-white sm:text-4xl md:text-3xl xl:text-5xl text-center">
+                {"Feel free to reach out!".split("").map((char, index) => (
+                    <span
+                        key={index}
+                        className="inline-block animate-wave"
+                        style={{ animationDelay: `${index * 0.05}s` }}
+                    >
+                        {char === " " ? "\u00A0" : char}
+                    </span>
+                ))}
+            </div>
+
+
             <form ref={form} onSubmit={sendEmail} className='flex flex-col bg-[#A0A09B] mx-auto max-w-5xl sm:w-3/4 md:w-3/5 lg:w-1/2 w-full rounded-md p-4 sm:p-6 lg:p-8 mt-8' >
                 {notification && <p className='text-center text-red-700 text-sm sm:text-base'>{notification}</p>}
                 <label className='font-bold text-sm sm:text-base lg:text-lg mt-4'>Name:</label>
-                <input className='flex justify-center w-full px-2 py-1 rounded-md' placeholder='Name' type='text' value={name} onChange={(e) => setName(e.target.value)}/>
+                <input className='flex justify-center w-full px-2 py-1 rounded-md' placeholder='Name' type='text' value={name} onChange={(e) => setName(e.target.value)} />
 
                 <label className='font-bold text-sm sm:text-base lg:text-lg mt-4'>Email:</label>
-                <input className='px-2 py-1 rounded-md w-full' placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)}/> 
+                <input className='px-2 py-1 rounded-md w-full' placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)} />
 
                 <label className='font-bold text-sm sm:text-base lg:text-lg mt-4'>Message</label>
                 <textarea className='px-2 py-1 rounded-md' placeholder='Message' cols='30' rows='7' value={message} onChange={(e) => setMessage(e.target.value)} />
@@ -84,18 +96,18 @@ const Contact = () => {
             {/*Button to my links */}
             <div className='flex justify-center gap-20 mt-8'>
                 <button type="button" className='p-2 bg-transparent hover:opacity-80' onclick={() => window.open('https://github.com/aceroman', '_blank')}>
-                    <img src={GithubIcon} alt='My github link' className='w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20'/>
+                    <img src={GithubIcon} alt='My github link' className='w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24' />
                 </button>
-                <button type='button' className='p-2 bg-transparent hover:opacity-80' onClick={() => window.open('https://wwww.linkedin.com/in/adrian-menacho22/', '_blank')}>
-                    <img src={LinkedInIcon} alt='My Linkedin link' className='w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />
+                <button type='button' className='p-2 bg-transparent hover:opacity-80 hover:bg-[var(--color)] hover:shadow-[0_0_5px_var(--color),0_0_25px_var(--color),0_0_50px_var(--color),0_0_75px_var(--color)] rounded-full transition duration-300 ease-in-out' onClick={() => window.open('https://wwww.linkedin.com/in/adrian-menacho22/', '_blank')}>
+                    <img src={LinkedInIcon} alt='My Linkedin link' className='w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24' />
                 </button>
                 <button type='button' className='p-2 bg-transparent hover:opacity-80' onClick={() => window.open('mailto:adrianjosemenacho@outlook.com')}>
-                    <img src={EmailIcon} alt='Email me!' className='w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />
+                    <img src={EmailIcon} alt='Email me!' className='w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24' />
                 </button>
             </div>
         </div>
-    
-        
+
+
     );
 };
 

@@ -1,0 +1,29 @@
+{
+    "skills": [
+      {
+        "category": "Programming Languages",
+        "items": ["JavaScript", "Python", "Java", "R", "MATLAB", "SQL"]
+      },
+      {
+        "category": "Frameworks & Libraries",
+        "items": ["React.js", "Node.js", "Tailwind CSS", "Pandas", "NumPy", "scikit-learn"]
+      },
+      {
+        "category": "Tools & Platforms",
+        "items": ["Microsoft Office", "Jyputer Notebook", "Azure Data Studio", "RStudio", "Google Colab"]
+      },
+      {
+        "category": "Databases",
+        "items": ["Microsoft SQL Server", "MongoDB"]
+      },
+      {
+        "category": "Languages",
+        "items": ["English", "Spanish"]
+      },
+      {
+        "category": "Active Clearances",
+        "items": ["Public Trust"]
+      }
+    ]
+  }
+  

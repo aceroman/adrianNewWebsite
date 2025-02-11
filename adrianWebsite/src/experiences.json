@@ -1,0 +1,74 @@
+{
+    "experiences": [
+        {
+            "image": "assets/blueLogo.jpeg",
+            "title": "Front End Developer",
+            "description": "I am responsible for the UI of BookdUp under Gatora LLC",
+            "website": "https://bookdup.co/"
+        },
+        {
+            "image": "assets/ehsPic.jpg",
+            "title": "Web Content Assistant",
+            "description": "Updating the pages for the Virginia Tech Environmental Health & Safety",
+            "website": ""
+        },
+        {
+            "image": "assets/adrianWaller1.jpeg",
+            "title": "Data Analytics Research Assistant",
+            "description": "Under Dr. Tremayne Waller, analyzed projects within the Graduate Student Programs",
+            "website": ""
+        },
+        {
+            "image": "assets/aisPic.png",
+            "title": "Data Analyst",
+            "description": "Under Dr. Anand Banerjee & Dr. Pavel Kraikivski, we analyzed cell cycle genes",
+            "website": ""
+        }
+    ],
+    "professional": [
+        {
+            "image": "assets/cybersecurityChallengePic.jpeg",
+            "title": "SHPE Cybersecurity Challenge",
+            "description": "Participated in 2024 SHPE Cybersecurity Challenge!",
+            "website": ""
+        },
+        {
+            "image": "assets/shpeConvention2024.png",
+            "title": "2024 SHPE National Convention",
+            "description": "Attended the 2024 SHPE National Conference to connect with others",
+            "website": ""
+        },
+        {
+            "image": "assets/AboutPicture1.jpg",
+            "title": "AWS Summit Conference",
+            "description": "Attended the AWS Summit Conference to learn more about startups!",
+            "website": ""
+        },
+        {
+            "image": "assets/SynergyGSPPicture.jpg",
+            "title": "Synergy Conference 2024",
+            "description": "Assisted in the Inagural Synergy Conference with the Graduate Student Programs",
+            "website": "https://www.synergy-conference.org/"
+        }
+    ],
+    "projects": [
+        {
+            "image": "assets/cmdaCapstonePicture1.JPG",
+            "title": "CMDA Capstone Project",
+            "description": "The Three Ticketeers tackling Capstone together with VA811!",
+            "website": ""
+        },
+        {
+            "image": "assets/RC4Picture.png",
+            "title": "RC4 Magma Implementation",
+            "description": "Researched and developed RC4 Cryptosystem using MAGMA",
+            "website": ""
+        },
+        {
+            "image": "assets/4654Picture.png",
+            "title": "Health Care Partial Least Squares",
+            "description": "Developed in-depth understanding of PLS using health care data",
+            "website": ""
+        }
+    ]
+}
