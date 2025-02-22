@@ -2,6 +2,7 @@ import React from 'react';
 import Adrian from '../assets/synergyPicture2.jpg'
 import adrianGrad from '../assets/gradMenacho.jpg';
 import { IoSchoolSharp } from 'react-icons/io5';
+import { FaUniversity } from "react-icons/fa";
 import Skills from '../skillset.json'
 
 
@@ -33,13 +34,21 @@ function AboutMe() {
         <div className='flex flex-col items-center gap-5'>
           <div className='mt-10 p-6 text-white rounded-lg shadow-lg flex flex-col items-center border-4'>
             <div className='text-4xl mb-4'>
-              <IoSchoolSharp />
+              <FaUniversity />
             </div>
             <h3 className='text-xl font-bold'>Education</h3>
             <p className='mt-2 font-semibold'>Virginia Tech</p>
             <p className='mt-1 text-sm'>B.S. in Computational Modeling and Data Analytics</p>
           </div>
-
+          <div className='mt-10 p-6 text-white rounded-lg shadow-lg flex flex-col items-center border-4'>
+            <div className='text-4xl mb-4'>
+              <IoSchoolSharp />
+            </div>
+            <h3 className='text-xl font-bold'>Scholarship</h3>
+            <p className='mt-2 font-semibold'>Virginia Tech</p>
+            <p className='mt-1 text-sm'>Presidential Campus Enrichment Grant Recipient</p>
+          </div>
+          
         </div>
 
       </div>
@@ -52,7 +61,6 @@ function AboutMe() {
           ))}
         </div>
       </div>
-
 
     </div>
   )

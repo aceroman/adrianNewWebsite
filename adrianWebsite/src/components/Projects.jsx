@@ -1,28 +1,31 @@
 import React, { useEffect, useState } from 'react';
 import ProjectCard from './ProjectCard';
 import Experiences from '../experiences.json';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
+const imageImports = import.meta.glob('../assets/*', {eager: true});
 
 function Projects() {
 
     const [images, setImages] = useState({});
 
     useEffect(() => {
-        const loadImages = async () => {
-            const imgMap = {};
-            for (const category of Object.keys(Experiences)) { 
-                for (const item of Experiences[category]) {
-                    try {
-                        imgMap[item.image] = (await import(`../${item.image}`)).default;
-                    } catch (error) {
-                        console.error(`Error loading image: ${item.image}`, error);
-                    }
+        AOS.init({duration:1500})
+    })
+
+    useEffect(() => {
+        const imgMap = {};
+        for (const category of Object.keys(Experiences)) { 
+            for (const item of Experiences[category]) {
+                if (imageImports[`../${item.image}`]) {
+                    imgMap[item.image] = imageImports[`../${item.image}`].default;
+                } else {
+                    console.warn(`Image not found: ${item.image}`);
                 }
             }
-            setImages(imgMap);
-        };
-
-        loadImages();
+        }
+        setImages(imgMap);
     }, []);
 
     return (
@@ -34,7 +37,7 @@ function Projects() {
 
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[150px] md:gap-12 xl:gap-28 pt-10'>
                 {Experiences.experiences.map((exp, index) =>(
-                    <ProjectCard key={index} title={exp.title} image={images[exp.image] || ''} description={exp.description} websiteLink={exp.website} />
+                    <ProjectCard key={index} title={exp.title} image={images[exp.image] || ''} description={exp.description} websiteLink={exp.website} data-aos='fade-up'/>
                 ))}
             </div>
 
@@ -44,7 +47,7 @@ function Projects() {
 
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[150px] md:gap-12 xl:gap-28 pt-10'>
                 {Experiences.professional.map((prof, index) => (
-                    <ProjectCard key={index} title={prof.title} image={images[prof.image] || ''} description={prof.description} websiteLink={prof.website} />
+                    <ProjectCard key={index} title={prof.title} image={images[prof.image] || ''} description={prof.description} websiteLink={prof.website} data-aos='fade-up' />
                 ))}
             </div>
 
@@ -55,7 +58,7 @@ function Projects() {
 
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[150px] md:gap-12 xl:gap-28 pt-10'>
                 {Experiences.projects.map((proj, index) => (
-                    <ProjectCard key={index} title={proj.title} image={images[proj.image] || ''} description={proj.description} websiteLink={proj.website} />
+                    <ProjectCard key={index} title={proj.title} image={images[proj.image] || ''} description={proj.description} websiteLink={proj.website} data-aos='fade-up' />
                 ))}
             </div>
 
