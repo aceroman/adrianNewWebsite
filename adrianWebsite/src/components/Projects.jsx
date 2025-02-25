@@ -11,7 +11,7 @@ function Projects() {
     const [images, setImages] = useState({});
 
     useEffect(() => {
-        AOS.init({duration:1500})
+        AOS.init({duration:600})
     })
 
     useEffect(() => {
@@ -42,7 +42,7 @@ function Projects() {
             </div>
 
             <div className='flex justify-center mt-12'>
-                <h1 className='text-white text-5xl font-semibold text-center border-b-4 border-white p-4'>Professional Developement</h1>
+                <h1 className='text-white text-5xl font-semibold text-center border-b-4 border-white p-4' data-aos='fade-up'>Professional Developement</h1>
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[150px] md:gap-12 xl:gap-28 pt-10'>
@@ -53,7 +53,7 @@ function Projects() {
 
 
             <div className='flex justify-center mt-12'>
-                <h1 className='text-white text-5xl font-semibold text-center border-b-4 border-white p-4'>Projects</h1>
+                <h1 className='text-white text-5xl font-semibold text-center border-b-4 border-white p-4' data-aos='fade-up'>Projects</h1>
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[150px] md:gap-12 xl:gap-28 pt-10'>

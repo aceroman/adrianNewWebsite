@@ -3,6 +3,8 @@ import emailjs from '@emailjs/browser';
 import GithubIcon from '../assets/GithubIcon.png';
 import LinkedInIcon from '../assets/LinkedInIcon.png';
 import EmailIcon from '../assets/EmailIcon.png';
+import eicon from '../assets/mailIcon2.png';
+import gIcon from '../assets/githubIcon2.png';
 
 
 const Contact = () => {
@@ -96,13 +98,17 @@ const Contact = () => {
             {/*Button to my links */}
             <div className='flex justify-center gap-20 mt-8'>
                 <button type="button" className='p-2 bg-transparent hover:opacity-80' onclick={() => window.open('https://github.com/aceroman', '_blank')}>
-                    <img src={GithubIcon} alt='My github link' className='w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24' />
+                    <div className='bg-white rounded-full'>
+                        <img src={GithubIcon} alt='My github link' className='w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24' />
+                    </div>
                 </button>
                 <button type='button' className='p-2 bg-transparent hover:opacity-80 hover:bg-[var(--color)] hover:shadow-[0_0_5px_var(--color),0_0_25px_var(--color),0_0_50px_var(--color),0_0_75px_var(--color)] rounded-full transition duration-300 ease-in-out' onClick={() => window.open('https://wwww.linkedin.com/in/adrian-menacho22/', '_blank')}>
                     <img src={LinkedInIcon} alt='My Linkedin link' className='w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24' />
                 </button>
                 <button type='button' className='p-2 bg-transparent hover:opacity-80' onClick={() => window.open('mailto:adrianjosemenacho@outlook.com')}>
-                    <img src={EmailIcon} alt='Email me!' className='w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24' />
+                    <div className='bg-white rounded-3xl'>
+                        <img src={EmailIcon} alt='Email me!' className='w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24' />
+                    </div>
                 </button>
             </div>
         </div>
