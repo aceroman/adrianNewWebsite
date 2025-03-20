@@ -6,11 +6,11 @@
       },
       {
         "category": "Frameworks & Libraries",
-        "items": ["React.js", "Node.js", "Tailwind CSS", "Pandas", "NumPy", "scikit-learn"]
+        "items": ["React.js", "Node.js", "Tailwind CSS", "Pandas", "NumPy", "scikit-learn", "RShiny"]
       },
       {
         "category": "Tools & Platforms",
-        "items": ["Microsoft Office", "Jyputer Notebook", "Azure Data Studio", "RStudio", "Google Colab"]
+        "items": ["Microsoft Office", "Jyputer Notebook", "Azure Data Studio", "RStudio", "Google Colab", "Git/Github", "Tableau"]
       },
       {
         "category": "Databases",

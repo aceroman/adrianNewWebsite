@@ -4,25 +4,29 @@
             "image": "assets/blueLogo.jpeg",
             "title": "Front End Developer",
             "description": "I am responsible for the UI of BookdUp under Gatora LLC",
-            "website": "https://bookdup.co/"
+            "website": "https://bookdup.co/",
+            "website-name": "BookdUp website"
         },
         {
             "image": "assets/ehsPic.jpg",
             "title": "Web Content Assistant",
-            "description": "Updating the pages for the Virginia Tech Environmental Health & Safety",
-            "website": ""
+            "description": "Updating and desiging the webpages for the Virginia Tech Environmental Health & Safety",
+            "website": "",
+            "website-name": ""
         },
         {
             "image": "assets/adrianWaller1.jpeg",
             "title": "Data Analytics Research Assistant",
             "description": "I analyzed projects and gained new experinces with Dr. Tremayne Waller and Graduate Student Programs",
-            "website": ""
+            "website": "",
+            "website-name": ""
         },
         {
             "image": "assets/aisPic.png",
             "title": "Data Analyst",
-            "description": "Under Dr. Anand Banerjee & Dr. Pavel Kraikivski, we analyzed cell cycle genes",
-            "website": ""
+            "description": "Under Dr. Anand Banerjee & Dr. Pavel Kraikivski, we developed an model to determine if a gene is a cell cycle genes",
+            "website": "",
+            "website-name": ""
         }
     ],
     "professional": [
@@ -30,25 +34,29 @@
             "image": "assets/cybersecurityChallengePic.jpeg",
             "title": "SHPE Cybersecurity Challenge",
             "description": "Participated in 2024 SHPE Cybersecurity Challenge!",
-            "website": ""
+            "website": "",
+            "website-name": ""
         },
         {
             "image": "assets/shpeConvention2024.png",
             "title": "2024 SHPE National Convention",
             "description": "Attended the 2024 SHPE National Conference to connect with others",
-            "website": ""
+            "website": "",
+            "website-name": ""
         },
         {
             "image": "assets/AboutPicture1.jpg",
             "title": "AWS Summit Conference",
             "description": "Attended the AWS Summit Conference to learn more about startups!",
-            "website": ""
+            "website": "",
+            "website-name": ""
         },
         {
             "image": "assets/SynergyGSPPicture.jpg",
             "title": "Synergy Conference 2024",
             "description": "Assisted in the Inagural Synergy Conference with the Graduate Student Programs",
-            "website": "https://www.synergy-conference.org/"
+            "website": "https://www.synergy-conference.org/",
+            "website-name": "Synergy Conference Website"
         }
     ],
     "projects": [
@@ -56,19 +64,29 @@
             "image": "assets/cmdaCapstonePicture1.JPG",
             "title": "CMDA Capstone Project",
             "description": "The Three Ticketeers tackling Capstone together with VA811!",
-            "website": ""
+            "website": "",
+            "website-name": ""
+        },
+        {
+            "image": "assets/securePasswordImage.png",
+            "title": "Secure Password Management",
+            "description": "Developed a secured password management system utilizing AES-256 and bcrypt hashing to ensure user security",
+            "website": "",
+            "website-name": ""
         },
         {
             "image": "assets/RC4Picture.png",
             "title": "RC4 Magma Implementation",
             "description": "Researched and developed RC4 Cryptosystem using MAGMA",
-            "website": ""
+            "website": "",
+            "website-name": ""
         },
         {
             "image": "assets/4654Picture.png",
             "title": "Health Care Partial Least Squares",
             "description": "Developed in-depth understanding of PLS using health care data",
-            "website": ""
+            "website": "",
+            "website-name": ""
         }
     ]
 }

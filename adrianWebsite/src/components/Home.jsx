@@ -5,9 +5,9 @@ import { TypeAnimation } from 'react-type-animation';
 
 function Home() {
   return (
-    <div className='bg-[#3B4141] min-h-screen p-4'>
+    <div className='bg-[#3B4141] min-h-screen p-4 flex flex-col justify-center items-center'>
       {/*bg-[#A0A09B] */}{/*bg-[#A0A09B] */}
-      <TypeAnimation className='flex justify-center text-3xl sm:text-4xl text-white font-semibold'
+      <TypeAnimation className='text-3xl sm:text-4xl text-white font-semibold text-center'
         sequence={['Data Analyst', 1500,
           'Front End Developer', 1500,
           'Bolivian', 1500,

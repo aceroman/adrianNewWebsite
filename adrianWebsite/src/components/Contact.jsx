@@ -3,8 +3,7 @@ import emailjs from '@emailjs/browser';
 import GithubIcon from '../assets/GithubIcon.png';
 import LinkedInIcon from '../assets/LinkedInIcon.png';
 import EmailIcon from '../assets/EmailIcon.png';
-import eicon from '../assets/mailIcon2.png';
-import gIcon from '../assets/githubIcon2.png';
+
 
 
 const Contact = () => {
@@ -66,7 +65,7 @@ const Contact = () => {
 
 
     return (
-        <div className='mx-auto px-4 sm:px-8 lg:px-16 py-8 relative bg-[#3B4141]'>
+        <div className='mx-auto px-4 sm:px-8 lg:px-16 py-8 relative bg-[#3B4141] min-h-screen'>
 
             {/*The key part of the contact page! */}
             <div className="flex space-x-4 justify-center font-semibold text-white sm:text-4xl md:text-3xl xl:text-5xl text-center">
@@ -97,15 +96,17 @@ const Contact = () => {
 
             {/*Button to my links */}
             <div className='flex justify-center gap-20 mt-8'>
-                <button type="button" className='p-2 bg-transparent hover:opacity-80' onclick={() => window.open('https://github.com/aceroman', '_blank')}>
+                <button type="button" className='p-2 bg-transparent hover:opacity-70' onclick={() => window.open('https://github.com/aceroman', '_blank')}>
                     <div className='bg-white rounded-full'>
                         <img src={GithubIcon} alt='My github link' className='w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24' />
                     </div>
                 </button>
-                <button type='button' className='p-2 bg-transparent hover:opacity-80 hover:bg-[var(--color)] hover:shadow-[0_0_5px_var(--color),0_0_25px_var(--color),0_0_50px_var(--color),0_0_75px_var(--color)] rounded-full transition duration-300 ease-in-out' onClick={() => window.open('https://wwww.linkedin.com/in/adrian-menacho22/', '_blank')}>
-                    <img src={LinkedInIcon} alt='My Linkedin link' className='w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24' />
+                <button type='button' className='p-2 bg-transparent hover:opacity-70  rounded-full transition duration-300 ease-in-out' onClick={() => window.open('https://wwww.linkedin.com/in/adrian-menacho22/', '_blank')}>
+                    <div className='bg-white rounded-3xl'>
+                        <img src={LinkedInIcon} alt='My Linkedin link' className='w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24' />
+                    </div>
                 </button>
-                <button type='button' className='p-2 bg-transparent hover:opacity-80' onClick={() => window.open('mailto:adrianjosemenacho@outlook.com')}>
+                <button type='button' className='p-2 bg-transparent hover:opacity-70' onClick={() => window.open('mailto:adrianjosemenacho@outlook.com')}>
                     <div className='bg-white rounded-3xl'>
                         <img src={EmailIcon} alt='Email me!' className='w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24' />
                     </div>
