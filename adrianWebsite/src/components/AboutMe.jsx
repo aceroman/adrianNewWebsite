@@ -12,7 +12,7 @@ function AboutMe() {
 
   const SkillCard = ({ category, items }) => (
     <div className="shadow-md rounded-2xl p-4 m-4 border-4 transition-transform transform hover:scale-105">
-      <h3 className="text-xl font-bold text-white mb-2">{category}</h3>
+      <h3 className="text-xl font-bold text-white mb-2 text-center border-b-2">{category}</h3>
       <ul className="list-disc list-inside space-y-1">
         {items.map((item, index) => (
           <li key={index} className="text-white">{item}</li>
