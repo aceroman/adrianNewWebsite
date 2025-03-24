@@ -31,9 +31,16 @@
     ],
     "professional": [
         {
+            "image": "assets/Synergy2025Pic.png",
+            "title": "Synergy Conference 2025",
+            "description": "Volunteered for the 2nd Annual Synergy Conference along with Graduate Student Programs",
+            "website":"https://www.synergy-conference.org/",
+            "website-name": "Synergy Conference Website"
+        },
+        {
             "image": "assets/cybersecurityChallengePic.jpeg",
             "title": "SHPE Cybersecurity Challenge",
-            "description": "Participated in 2024 SHPE Cybersecurity Challenge!",
+            "description": "Participated in 2024 SHPE Cybersecurity Challenge along with other Virginia Tech SHPE Chapter members",
             "website": "",
             "website-name": ""
         },
@@ -48,8 +55,8 @@
             "image": "assets/AboutPicture1.jpg",
             "title": "AWS Summit Conference",
             "description": "Attended the AWS Summit Conference to learn more about startups!",
-            "website": "",
-            "website-name": ""
+            "website": "https://aws.amazon.com/events/summits/washington-dc/",
+            "website-name": "AWS Summit 2024 Washington DC"
         },
         {
             "image": "assets/SynergyGSPPicture.jpg",
