@@ -68,7 +68,7 @@ const Contact = () => {
         <div className='mx-auto px-4 sm:px-8 lg:px-16 py-8 relative bg-[#3B4141] min-h-screen'>
 
             {/*The key part of the contact page! */}
-            <div className="flex space-x-4 justify-center font-semibold text-white sm:text-4xl md:text-3xl xl:text-5xl text-center">
+            <div className="flex flex-wrap space-x-2 justify-center font-semibold text-white sm:text-2xl md:text-3xl xl:text-5xl text-center">
                 {"Feel free to reach out!".split("").map((char, index) => (
                     <span
                         key={index}
@@ -101,7 +101,7 @@ const Contact = () => {
                         <img src={GithubIcon} alt='My github link' className='w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24' />
                     </div>
                 </button>
-                <button type='button' className='p-2 bg-transparent hover:opacity-70  rounded-full transition duration-300 ease-in-out' onClick={() => window.open('https://wwww.linkedin.com/in/adrian-menacho22/', '_blank')}>
+                <button type='button' className='p-2 bg-transparent hover:opacity-70  rounded-full transition duration-300 ease-in-out' onClick={() => window.open('https://www.linkedin.com/in/adrian-menacho22/', '_blank')}>
                     <div className='bg-white rounded-3xl'>
                         <img src={LinkedInIcon} alt='My Linkedin link' className='w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24' />
                     </div>
