@@ -96,7 +96,7 @@ const Contact = () => {
 
             {/*Button to my links */}
             <div className='flex justify-center gap-20 mt-8'>
-                <button type="button" className='p-2 bg-transparent hover:opacity-70' onclick={() => window.open('https://github.com/aceroman', '_blank')}>
+                <button type="button" className='p-2 bg-transparent hover:opacity-70' onClick={() => window.open('https://github.com/aceroman', '_blank')}>
                     <div className='bg-white rounded-full'>
                         <img src={GithubIcon} alt='My github link' className='w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24' />
                     </div>
