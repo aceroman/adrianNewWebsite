@@ -7,6 +7,7 @@ function Home() {
   return (
     <div className='bg-[#3B4141] min-h-screen p-4 flex flex-col justify-center items-center'>
       {/*bg-[#A0A09B] */}{/*bg-[#A0A09B] */}
+      <h1 className='text-center text-6xl font-semibold pt-16 pb-10 text-[#F72C1D]'>Adrian Menacho</h1>
       <TypeAnimation className='text-3xl sm:text-4xl text-white font-semibold text-center'
         sequence={['Data Analyst', 1500,
           'Front End Developer', 1500,

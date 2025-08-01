@@ -12,7 +12,6 @@ function App() {
   <div className='bg-[#3B4141]'> {/*#DBD5B5 */}
     <Navbar/>
     <div className='bg-[#3B4141] flex justify-center items-center'>
-      <h1 className='text-center text-6xl font-semibold pt-16 pb-10 text-[#F72C1D]'>Adrian Menacho</h1>
     </div>
 
 

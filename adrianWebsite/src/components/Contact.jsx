@@ -68,7 +68,7 @@ const Contact = () => {
         <div className='mx-auto px-4 sm:px-8 lg:px-16 py-8 relative bg-[#3B4141] min-h-screen'>
 
             {/*The key part of the contact page! */}
-            <div className="flex flex-wrap space-x-2 justify-center font-semibold text-white sm:text-2xl md:text-3xl xl:text-5xl text-center">
+            <div className="flex flex-wrap space-x-2 justify-center font-semibold text-white sm:text-2xl md:text-3xl xl:text-5xl text-center pt-10">
                 {"Feel free to reach out!".split("").map((char, index) => (
                     <span
                         key={index}

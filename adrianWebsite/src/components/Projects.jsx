@@ -31,13 +31,13 @@ function Projects() {
     return (
         <div className='bg-[#3B4141] px-4 lg:px-16 xl:px-24'>
 
-            <div className='flex justify-center'>
+            <div className='flex justify-center pt-6'>
                 <h1 className='text-white text-5xl font-semibold text-center border-b-4 border-white p-4'>Experiences</h1>
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[150px] md:gap-12 xl:gap-28 pt-10'>
                 {Experiences.experiences.map((exp, index) =>(
-                    <ProjectCard key={index} title={exp.title} image={images[exp.image] || ''} description={exp.description} websiteLink={exp.website} websiteName={exp['website-name']} data-aos='fade-up'/>
+                    <ProjectCard key={index} title={exp.title} image={images[exp.image] || ''} description={exp.description} duration={exp.duration} websiteLink={exp.website} websiteName={exp['website-name']} data-aos='fade-up'/>
                 ))}
             </div>
 

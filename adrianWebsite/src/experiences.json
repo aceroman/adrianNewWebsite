@@ -1,9 +1,26 @@
 {
     "experiences": [
         {
+            "image": "assets/valleyHealthPic.png",
+            "title": "Data Analyst",
+            "description": "Analyzing inpatient data to enhance patient care outcomes and visualizing insights through Tableau dashboards",
+            "duration": "July 2025 - Present",
+            "website": "",
+            "website-name": ""
+        }, 
+        {
+            "image": "assets/gatoraLogo.png",
+            "title": "AI Analyst",
+            "description": "Assisting in the development of an AI feature, StyleSight, to further assist customers consultation with their barbers",
+            "duration": "March 2025 - July 2025",
+            "website": "https://gatorallc-v0-1-725613837496.us-central1.run.app/",
+            "website-name": "StyleSight Waitlist website"
+        },
+        {
             "image": "assets/blueLogo.jpeg",
             "title": "Front End Developer",
-            "description": "I am responsible for the UI of BookdUp under Gatora LLC",
+            "description": "I am responsible for the UI development of the product BookdUp, a platform for booking appointments with barbers",
+            "duration": "December 2023 - March 2025",
             "website": "https://bookdup.co/",
             "website-name": "BookdUp website"
         },
@@ -11,13 +28,15 @@
             "image": "assets/ehsPic.jpg",
             "title": "Web Content Assistant",
             "description": "Updating and desiging the webpages for the Virginia Tech Environmental Health & Safety",
-            "website": "",
-            "website-name": ""
+            "duration": "October 2024 - May 2025",
+            "website": "https://ehs.vt.edu/",
+            "website-name": "VT Environmental Health & Safety"
         },
         {
             "image": "assets/adrianWaller1.jpeg",
             "title": "Data Analytics Research Assistant",
-            "description": "I analyzed projects and gained new experinces with Dr. Tremayne Waller and Graduate Student Programs",
+            "description": "I analyzed projects and gained new experinces with Dr. Tremayne Waller and the Graduate Student Programs",
+            "duration": "January 2024 - December 2024",
             "website": "",
             "website-name": ""
         },
@@ -25,6 +44,7 @@
             "image": "assets/aisPic.png",
             "title": "Data Analyst",
             "description": "Under Dr. Anand Banerjee & Dr. Pavel Kraikivski, we developed an model to determine if a gene is a cell cycle genes",
+            "duration": "November 2022 - June 2023",
             "website": "",
             "website-name": ""
         }
