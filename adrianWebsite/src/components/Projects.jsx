@@ -37,7 +37,7 @@ function Projects() {
 
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[150px] md:gap-12 xl:gap-28 pt-10'>
                 {Experiences.experiences.map((exp, index) =>(
-                    <ProjectCard key={index} title={exp.title} image={images[exp.image] || ''} description={exp.description} duration={exp.duration} websiteLink={exp.website} websiteName={exp['website-name']} data-aos='fade-up'/>
+                    <ProjectCard key={index} title={exp.title} image={images[exp.image] || ''} description={exp.description} duration={exp.duration} websiteLink={exp.website} websiteName={exp['website-name']} skills={exp.skills || []} data-aos='fade-up'/>
                 ))}
             </div>
 
@@ -47,7 +47,7 @@ function Projects() {
 
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[150px] md:gap-12 xl:gap-28 pt-10'>
                 {Experiences.professional.map((prof, index) => (
-                    <ProjectCard key={index} title={prof.title} image={images[prof.image] || ''} description={prof.description} websiteLink={prof.website} websiteName={prof['website-name']} data-aos='fade-up' />
+                    <ProjectCard key={index} title={prof.title} image={images[prof.image] || ''} description={prof.description} websiteLink={prof.website} websiteName={prof['website-name']} skills={prof.skills || []} data-aos='fade-up' />
                 ))}
             </div>
 
@@ -58,7 +58,7 @@ function Projects() {
 
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[150px] md:gap-12 xl:gap-28 pt-10'>
                 {Experiences.projects.map((proj, index) => (
-                    <ProjectCard key={index} title={proj.title} image={images[proj.image] || ''} description={proj.description} websiteLink={proj.website} websiteName={proj['website-name']} data-aos='fade-up' />
+                    <ProjectCard key={index} title={proj.title} image={images[proj.image] || ''} description={proj.description} websiteLink={proj.website} websiteName={proj['website-name']} skills={proj.skills || []} data-aos='fade-up' />
                 ))}
             </div>
 

@@ -1,29 +1,59 @@
 {
-    "skills": [
-      {
-        "category": "Programming Languages",
-        "items": ["JavaScript", "Python", "Java", "R", "MATLAB", "SQL"]
-      },
-      {
-        "category": "Frameworks & Libraries",
-        "items": ["React.js", "Node.js", "Tailwind CSS", "Pandas", "NumPy", "scikit-learn", "RShiny"]
-      },
-      {
-        "category": "Tools & Platforms",
-        "items": ["Microsoft Office", "Jyputer Notebook", "Azure Data Studio", "RStudio", "Google Colab", "Git/Github", "Tableau"]
-      },
-      {
-        "category": "Databases",
-        "items": ["Microsoft SQL Server", "MongoDB"]
-      },
-      {
-        "category": "Languages",
-        "items": ["English", "Spanish"]
-      },
-      {
-        "category": "Active Clearances",
-        "items": ["Public Trust"]
-      }
-    ]
-  }
-  
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": [
+        { "name": "JavaScript", "icon": "SiJavascript" },
+        { "name": "Python", "icon": "SiPython" },
+        { "name": "Java", "icon": "FaJava" },
+        { "name": "R", "icon": "SiR" },
+        { "name": "MATLAB", "icon": "/icons/MATLAB.svg" },
+        { "name": "SQL", "icon": "SiMysql" }
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "items": [
+        { "name": "React.js", "icon": "SiReact" },
+        { "name": "Node.js", "icon": "SiNodedotjs" },
+        { "name": "Tailwind CSS", "icon": "SiTailwindcss" },
+        { "name": "Pandas", "icon": "SiPandas" },
+        { "name": "NumPy", "icon": "SiNumpy" },
+        { "name": "scikit-learn", "icon": "SiScikitlearn" },
+        { "name": "RShiny", "icon": "/icons/shiny-hex-logo.svg" }
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "items": [
+        { "name": "Microsoft Office", "icon": "FaMicrosoft" },
+        { "name": "Jupyter Notebook", "icon": "SiJupyter" },
+        { "name": "Azure Data Studio", "icon": "/icons/AzureDB.svg" },
+        { "name": "RStudio", "icon": "SiRstudioide" },
+        { "name": "Google Colab", "icon": "SiGooglecolab" },
+        { "name": "Git/Github", "icon": "SiGithub" },
+        { "name": "Tableau", "icon": "SiTableau" }
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        { "name": "Microsoft SQL Server", "icon": "/icons/MSSQL-Server.svg" },
+        { "name": "MongoDB", "icon": "SiMongodb" }
+      ]
+    },
+    {
+      "category": "Languages",
+      "items": [
+        { "name": "English" },
+        { "name": "Spanish" }
+      ]
+    },
+    {
+      "category": "Active Clearances",
+      "items": [
+        { "name": "Public Trust" }
+      ]
+    }
+  ]
+}

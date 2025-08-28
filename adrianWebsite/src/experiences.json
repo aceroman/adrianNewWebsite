@@ -6,7 +6,8 @@
             "description": "Analyzing inpatient data to enhance patient care outcomes and visualizing insights through Tableau dashboards",
             "duration": "July 2025 - Present",
             "website": "",
-            "website-name": ""
+            "website-name": "",
+            "skills": ["Microsoft Excel", "Tableau", "SQL Server", "Data Analysis", "Data Visualization", "EPIC"]
         }, 
         {
             "image": "assets/gatoraLogo.png",
@@ -14,7 +15,8 @@
             "description": "Assisting in the development of an AI feature, StyleSight, to further assist customers consultation with their barbers",
             "duration": "March 2025 - July 2025",
             "website": "https://gatorallc-v0-1-725613837496.us-central1.run.app/",
-            "website-name": "StyleSight Waitlist website"
+            "website-name": "StyleSight Waitlist website",
+            "skills": ["Python", "Machine Learning", "Data Collection", "RAG"]
         },
         {
             "image": "assets/blueLogo.jpeg",
@@ -22,7 +24,8 @@
             "description": "I am responsible for the UI development of the product BookdUp, a platform for booking appointments with barbers",
             "duration": "December 2023 - March 2025",
             "website": "https://bookdup.co/",
-            "website-name": "BookdUp website"
+            "website-name": "BookdUp website",
+            "skills": ["React", "TailwindCSS", "Figma", "MongoDB", "Node.js"]
         },
         {
             "image": "assets/ehsPic.jpg",
@@ -30,7 +33,8 @@
             "description": "Updating and desiging the webpages for the Virginia Tech Environmental Health & Safety",
             "duration": "October 2024 - May 2025",
             "website": "https://ehs.vt.edu/",
-            "website-name": "VT Environmental Health & Safety"
+            "website-name": "VT Environmental Health & Safety",
+            "skills": ["Ensemble", "Web Design", "Content Management System"]
         },
         {
             "image": "assets/adrianWaller1.jpeg",
@@ -38,7 +42,8 @@
             "description": "I analyzed projects and gained new experinces with Dr. Tremayne Waller and the Graduate Student Programs",
             "duration": "January 2024 - December 2024",
             "website": "",
-            "website-name": ""
+            "website-name": "",
+            "skills": ["Python", "Ensemble", "Microsoft Excel" , "Data Analysis", "Sentiment Analysis"]
         },
         {
             "image": "assets/aisPic.png",
@@ -46,7 +51,8 @@
             "description": "Under Dr. Anand Banerjee & Dr. Pavel Kraikivski, we developed an model to determine if a gene is a cell cycle genes",
             "duration": "November 2022 - June 2023",
             "website": "",
-            "website-name": ""
+            "website-name": "",
+            "skills": ["R", "Data Analysis", "Machine Learning", "K-Means Clustering", "Logistic Regression", "Github"]
         }
     ],
     "professional": [
@@ -62,7 +68,8 @@
             "title": "SHPE Cybersecurity Challenge",
             "description": "Participated in 2024 SHPE Cybersecurity Challenge along with other Virginia Tech SHPE Chapter members",
             "website": "",
-            "website-name": ""
+            "website-name": "",
+            "skills": ["Python", "Cryptography", "Cybersecurity", "Ciphers", "Cryptanalysis"]
         },
         {
             "image": "assets/shpeConvention2024.png",
@@ -88,32 +95,44 @@
     ],
     "projects": [
         {
+            "image": "assets/soccer-crowds.png",
+            "title": "Home Advanatage Bivariate Analysis",
+            "description": "Analyzed different european soccer leagues to see the impact of crowds to a teams home advantage",
+            "website": "",
+            "website-name": "",
+            "skills": ["R", "Data Analysis", "Data Visualization"]
+        },
+        {
             "image": "assets/cmdaCapstonePicture1.JPG",
             "title": "CMDA Capstone Project",
             "description": "The Three Ticketeers tackling Capstone together with VA811!",
             "website": "",
-            "website-name": ""
+            "website-name": "",
+            "skills": ["R", "Python", "Machine Learning", "Google Maps API", "Google OR-Tools"]
         },
         {
             "image": "assets/securePasswordImage.png",
             "title": "Secure Password Management",
             "description": "Developed a secured password management system utilizing AES-256 and bcrypt hashing to ensure user security",
             "website": "",
-            "website-name": ""
+            "website-name": "",
+            "skills": ["Python", "Cryptography", "Cybersecurity", " Flask", "React.js", "TailwindCSS", "MongoDB"]
         },
         {
             "image": "assets/RC4Picture.png",
             "title": "RC4 Magma Implementation",
             "description": "Researched and developed RC4 Cryptosystem using MAGMA",
             "website": "",
-            "website-name": ""
+            "website-name": "",
+            "skills": ["Magma", "Cryptography", "Cybersecurity"]
         },
         {
             "image": "assets/4654Picture.png",
             "title": "Health Care Partial Least Squares",
             "description": "Developed in-depth understanding of PLS using health care data",
             "website": "",
-            "website-name": ""
+            "website-name": "",
+            "skills": ["R", "Data Analysis", "Data Visualization"]
         }
     ]
 }
