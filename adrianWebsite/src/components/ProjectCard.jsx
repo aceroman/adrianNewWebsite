@@ -59,7 +59,7 @@ const ProjectCard = ({
 
             {/* Description */}
             {description && (
-              <p className="mt-2 text-sm leading-6 opacity-90">{description}</p>
+              <p className="mt-2 text-2xl leading-6 opacity-90">{description}</p>
             )}
 
             {/* Skills list */}
@@ -68,7 +68,7 @@ const ProjectCard = ({
                 {skills.map((s) => (
                   <span
                     key={s}
-                    className="truncate rounded-full bg-white/10 px-3 py-1 text-xs font-medium
+                    className="truncate rounded-full bg-white/10 px-3 py-1 text-md font-medium
                                ring-1 ring-white/15 backdrop-blur-sm"
                   >
                     {s}
