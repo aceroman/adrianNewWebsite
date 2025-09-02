@@ -20,9 +20,9 @@ function Home() {
           <img className='w-full max-w-xs sm:max-w-sm md:max-w-md xl:max-w-lg h-full rounded-3xl shadow-lg' src={Adrian} />
         </div>
         <div className='flex flex-col items-center gap-5'>
-          <p className='text-white text-lg sm:text-xl md:text-2xl font-semibold max-w-full md:max-w-[600px]'>Hi! My name is Adrian Menacho. I recently graduated from Virginia Tech! My interests lie in Big Data, Machine Learning and Web development.</p>
-          <p className='text-white text-lg sm:text-xl md:text-2xl font-semibold max-w-full md:max-w-[600px]'>Outside of analyzing data and developing, I love listening to music, stargazing and finding new restaruants!</p>
-          <p className='text-white text-lg sm:text-xl md:text-2xl font-semibold max-w-full md:max-w-[600px]'>Feel free to explore my website!</p>
+          <p className='text-white text-lg sm:text-xl md:text-2xl font-semibold max-w-full md:max-w-[600px]'>Welcome! I'm Adrian Menacho, a Virginia Tech alum, data analyst, and web developer with a keen interest in Big Data and Machine Learning.</p>
+          <p className='text-white text-lg sm:text-xl md:text-2xl font-semibold max-w-full md:max-w-[600px]'>I enjoy turning complex data into actionable insights and creating user-friendly website. Outside of tech, I love music, stargazing, and exploring new restaurants.</p>
+          <p className='text-white text-lg sm:text-xl md:text-2xl font-semibold max-w-full md:max-w-[600px]'>Take a look around to learn more about my experiences!</p>
         </div>
       </div>
 

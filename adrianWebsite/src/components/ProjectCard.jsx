@@ -59,12 +59,12 @@ const ProjectCard = ({
 
             {/* Description */}
             {description && (
-              <p className="mt-2 text-2xl leading-6 opacity-90">{description}</p>
+              <p className="mt-2 text-xl leading-6 opacity-90">{description}</p>
             )}
 
             {/* Skills list */}
             {skills?.length > 0 && (
-              <div className="mt-3 flex flex-wrap gap-2">
+              <div className="mt-3 flex flex-wrap gap-2 pt-2">
                 {skills.map((s) => (
                   <span
                     key={s}

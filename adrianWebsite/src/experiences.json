@@ -12,7 +12,7 @@
         {
             "image": "assets/gatoraLogo.png",
             "title": "AI Analyst",
-            "description": "Assisting in the development of an AI feature, StyleSight, to further assist customers consultation with their barbers",
+            "description": "Assisting in the development of an AI feature, StyleSight, to further assist customers consultation with their barbers. Moreover, to the future of the Personal Care Industry",
             "duration": "March 2025 - July 2025",
             "website": "https://gatorallc-v0-1-725613837496.us-central1.run.app/",
             "website-name": "StyleSight Waitlist website",
@@ -21,7 +21,7 @@
         {
             "image": "assets/blueLogo.jpeg",
             "title": "Front End Developer",
-            "description": "I am responsible for the UI development of BookdUp and StyleSight applications. ",
+            "description": "I am responsible for the UI development of BookdUp and StyleSight applications. I work closely with the design team to ensure the applications are user-friendly and visually appealing.",
             "duration": "December 2023 - March 2025",
             "website": "https://bookdup.co/",
             "website-name": "BookdUp website",
@@ -30,7 +30,7 @@
         {
             "image": "assets/ehsPic.jpg",
             "title": "Web Content Assistant",
-            "description": "Updating and desiging the webpages for the Virginia Tech Environmental Health & Safety",
+            "description": "Updating and desiging the webpages for the Virginia Tech Environmental Health & Safety. I collaborate with different departments to ensure the information they provide is accurate and up-to-date.",
             "duration": "October 2024 - May 2025",
             "website": "https://ehs.vt.edu/",
             "website-name": "VT Environmental Health & Safety",
@@ -39,7 +39,7 @@
         {
             "image": "assets/adrianWaller1.jpeg",
             "title": "Data Analytics Research Assistant",
-            "description": "I analyzed projects and gained new experinces with Dr. Tremayne Waller and the Graduate Student Programs",
+            "description": "I analyzed projects and gained new experinces with Dr. Tremayne Waller and the Graduate Student Programs. Currently, waiting on my first publication to be released!",
             "duration": "January 2024 - December 2024",
             "website": "",
             "website-name": "",
@@ -48,7 +48,7 @@
         {
             "image": "assets/aisPic.png",
             "title": "Data Analyst",
-            "description": "Under Dr. Anand Banerjee & Dr. Pavel Kraikivski, we developed an model to determine if a gene is a cell cycle genes",
+            "description": "Under Dr. Anand Banerjee & Dr. Pavel Kraikivski, we developed an model to determine if a gene is a cell cycle genes. We focused on characteristics of genes such gene expression, mutation and protein interaction.",
             "duration": "November 2022 - June 2023",
             "website": "",
             "website-name": "",
@@ -97,7 +97,7 @@
         {
             "image": "assets/soccer-crowds.png",
             "title": "Home Advanatage Bivariate Analysis",
-            "description": "Analyzed different european soccer leagues to see the impact of crowds to a teams home advantage",
+            "description": "Analyzed different european soccer leagues to see the impact of crowds to a teams home advantage. We used bivariate analysis to see the correlation between home advantage from specific home crowds. ",
             "website": "",
             "website-name": "",
             "skills": ["R", "Data Analysis", "Data Visualization"]
@@ -113,7 +113,7 @@
         {
             "image": "assets/securePasswordImage.png",
             "title": "Secure Password Management",
-            "description": "Developed a secured password management system utilizing AES-256 and bcrypt hashing to ensure user security",
+            "description": "Developed a secured password management system utilizing AES-256 and bcrypt hashing to ensure user security. This project emphasizes robust encryption and secure storage practices. ",
             "website": "",
             "website-name": "",
             "skills": ["Python", "Cryptography", "Cybersecurity", " Flask", "React.js", "TailwindCSS", "MongoDB"]
@@ -121,7 +121,7 @@
         {
             "image": "assets/RC4Picture.png",
             "title": "RC4 Magma Implementation",
-            "description": "Researched and developed RC4 Cryptosystem using MAGMA",
+            "description": "Researched and developed RC4 Cryptosystem using MAGMA. Researched the vulnerabilities of RC4 and implemented different attacks to decrypt messages.",
             "website": "",
             "website-name": "",
             "skills": ["Magma", "Cryptography", "Cybersecurity"]
@@ -129,7 +129,7 @@
         {
             "image": "assets/4654Picture.png",
             "title": "Health Care Partial Least Squares",
-            "description": "Developed in-depth understanding of PLS using health care data",
+            "description": "Developed in-depth understanding of PLS using health care data. ",
             "website": "",
             "website-name": "",
             "skills": ["R", "Data Analysis", "Data Visualization"]
