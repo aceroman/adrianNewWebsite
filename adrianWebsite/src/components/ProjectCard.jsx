@@ -51,7 +51,7 @@ const ProjectCard = ({
         {/* Back Side */}
         <div
           className="absolute inset-0 rounded-2xl [backface-visibility:hidden] [transform:rotateY(180deg)]
-                     border border-white/10 bg-zinc-900/95 text-white backdrop-blur-md"
+                     border border-white/10 bg-zinc-900/95 text-white backdrop-blur-md overflow-y-auto max-h-full min-h-full"
           aria-label="Project details"
         >
           <div className="flex h-full flex-col p-4">
@@ -59,7 +59,7 @@ const ProjectCard = ({
 
             {/* Description */}
             {description && (
-              <p className="mt-2 text-xl leading-6 opacity-90">{description}</p>
+              <p className="mt-2 text-xl leading-6 opacity-90 break-words">{description}</p>
             )}
 
             {/* Skills list */}

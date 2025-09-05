@@ -22,7 +22,7 @@ function Home() {
         <div className='flex flex-col items-center gap-5'>
           <p className='text-white text-lg sm:text-xl md:text-2xl font-semibold max-w-full md:max-w-[600px]'>Welcome! I'm Adrian Menacho, a Virginia Tech alum, data analyst, and web developer with a keen interest in Big Data and Machine Learning.</p>
           <p className='text-white text-lg sm:text-xl md:text-2xl font-semibold max-w-full md:max-w-[600px]'>I enjoy turning complex data into actionable insights and creating user-friendly website. Outside of tech, I love music, stargazing, and exploring new restaurants.</p>
-          <p className='text-white text-lg sm:text-xl md:text-2xl font-semibold max-w-full md:max-w-[600px]'>Take a look around to learn more about my experiences!</p>
+          <p className='text-white text-center text-lg sm:text-xl md:text-2xl font-semibold max-w-full md:max-w-[600px]'>Take a look around to learn more about my experiences!</p>
         </div>
       </div>
 

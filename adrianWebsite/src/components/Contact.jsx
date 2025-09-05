@@ -140,7 +140,7 @@ const Contact = () => {
                     <img
                         src={GithubIcon}
                         alt=""
-                        className="relative h-9 w-9 sm:h-10 sm:w-10 transition-transform duration-200 group-hover:scale-150"
+                        className="relative h-9 w-9 sm:h-10 sm:w-10 transition-transform duration-200 group-hover:scale-175"
                     />
                 </SocialLink>
 
@@ -148,7 +148,7 @@ const Contact = () => {
                     <img
                         src={LinkedInIcon}
                         alt=""
-                        className="relative h-9 w-9 sm:h-10 sm:w-10 transition-transform duration-200 group-hover:scale-150"
+                        className="relative h-9 w-9 sm:h-10 sm:w-10 transition-transform duration-200 group-hover:scale-175"
                     />
                 </SocialLink>
 
@@ -156,7 +156,7 @@ const Contact = () => {
                     <img
                         src={EmailIcon}
                         alt=""
-                        className="relative h-9 w-9 sm:h-10 sm:w-10 transition-transform duration-200 group-hover:scale-150"
+                        className="relative h-9 w-9 sm:h-10 sm:w-10 transition-transform duration-200 group-hover:scale-175"
                     />
                 </SocialLink>
             </div>

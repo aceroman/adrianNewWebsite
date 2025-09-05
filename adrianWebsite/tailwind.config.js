@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      scale: {
+        '175': '1.75',
+      },
       animation: {
         shine: 'shine 3s linear infinite',
         wave: 'wave 2s ease-in-out infinite'
