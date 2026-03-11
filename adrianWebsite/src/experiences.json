@@ -14,7 +14,7 @@
             "title": "AI Analyst",
             "description": "Assisting in the development of an AI feature, StyleSight, to further assist customers consultation with their barbers. Moreover, to the future of the Personal Care Industry",
             "duration": "March 2025 - July 2025",
-            "website": "https://gatorallc-v0-1-725613837496.us-central1.run.app/",
+            "website": "",
             "website-name": "StyleSight Waitlist website",
             "skills": ["Python", "Machine Learning", "Data Collection", "RAG"]
         },
@@ -23,8 +23,8 @@
             "title": "Front End Developer",
             "description": "I am responsible for the UI development of BookdUp and StyleSight applications. I work closely with the design team to ensure the applications are user-friendly and visually appealing.",
             "duration": "December 2023 - March 2025",
-            "website": "https://bookdup.co/",
-            "website-name": "BookdUp website",
+            "website": "",
+            "website-name": "BookdUp website", 
             "skills": ["React", "TailwindCSS", "Figma", "MongoDB", "Node.js"]
         },
         {
