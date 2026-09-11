@@ -1,5 +1,4 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
 import AboutMe from './components/AboutMe.jsx';
 import Projects from './components/Projects.jsx';
 import Navbar from './components/Navbar.jsx';
@@ -10,20 +9,21 @@ import Footer from './components/Footer.jsx';
 
 function App() {
   return (
-    <div className='bg-[#3B4141] min-h-screen flex flex-col'> {/*#DBD5B5 */}
+    <div className='bg-[#3B4141] flex flex-col'> {/*#DBD5B5 */}
       <Navbar />
-      <div className='flex-1'>
-        <Routes>
-          <Route path='/Home' element={<Home />} />
-          <Route path="/About" element={<AboutMe />} />
-          <Route path="/Projects" element={<Projects />} />
-          <Route path="/Contact" element={<Contact />} />
-
-        </Routes>
+      <div id="home" className='scroll-mt-20'>
+        <Home />
+      </div>
+      <div id="about" className='scroll-mt-20'>
+        <AboutMe />
+      </div>
+      <div id="projects" className='scroll-mt-20'>
+        <Projects />
+      </div>
+      <div id="contact" className='scroll-mt-20'>
+        <Contact />
       </div>
       <Footer />
-
-
     </div>
   )
 }

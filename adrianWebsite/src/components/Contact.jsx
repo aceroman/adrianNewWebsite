@@ -130,7 +130,7 @@ const Contact = () => {
 
                 <label className='font-bold text-sm sm:text-base lg:text-lg mt-4'>Message</label>
                 <textarea className='px-2 py-1 rounded-md' placeholder='Message' cols='30' rows='7' value={message} onChange={(e) => setMessage(e.target.value)} />
-                <button type='submit' className='mt-4 px-4 py-2 text-white font-semibold bg-[#911825] hover:shadow-lg hover:shadow-gray-500 rounded-lg text-center self-center'>Send Message</button>
+                <button type='submit' className='mt-4 px-4 py-2 text-white font-semibold bg-[#2d4d75] hover:shadow-lg hover:shadow-gray-500 rounded-lg text-center self-center'>Send Message</button>
             </form>
 
             {/*Button to my links */}

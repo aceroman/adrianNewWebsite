@@ -88,7 +88,7 @@ function AboutMe() {
 
       <div className='flex flex-col items-center justify-center p-6'>
         <h1 className="text-4xl font-semibold text-white pt-6 mb-6 border-b-4 border-white">
-          Technical Skillset
+          Technical Skills
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-6xl">
